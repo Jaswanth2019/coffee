@@ -1,0 +1,28 @@
+.box-comp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  padding: 20px;
+  margin: 50px;
+}
+.img-comp {
+  margin: 20px;
+}
+.heading-comp p {
+  font-size: larger;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  color: #262626;
+}
+.text-comp h6 {
+  line-height: 25px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: normal;
+  color: #656565;
+}
+.heading-comp p:hover {
+  color: #b78e5c;
+}

@@ -1,0 +1,80 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+.navbar {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+.carousel-img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.carousel-img img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.carousel-text {
+  color: white;
+  position: absolute;
+  top: 23%;
+  left: 65%;
+}
+.carousel-text img {
+  position: relative;
+  right: 7%;
+  margin: 1rem;
+}
+.carousel-text .heading {
+  position: relative;
+  font-size: 2.4rem;
+  right: 40%;
+}
+.carousel-text .leaf-img {
+  position: relative;
+  right: 7%;
+}
+.carousel-text .basic-text {
+  position: relative;
+  font-size: 20px;
+  right: 40%;
+  margin: 1rem;
+}
+.carousel-text .shop-button button {
+  position: relative;
+  right: 13%;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  margin: 1rem;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+}
+.carousel-text .shop-button button:hover {
+  background-color: #b78e5c;
+}
+.prevbutton button,
+.nextbutton button {
+  height: 50px;
+  width: 30px;
+  font-size: 30px;
+  background: transparent;
+  color: white;
+  border: none;
+}
+.prevbutton {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+}
+.nextbutton {
+  position: absolute;
+  top: 50%;
+  left: 96%;
+  z-index: 9999;
+}

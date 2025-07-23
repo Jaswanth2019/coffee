@@ -1,0 +1,21 @@
+.text-component {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header h2 {
+  font-size: 45px;
+  font-weight: 100;
+  padding: 10px;
+}
+.section-text h6 {
+  color: #262626;
+  line-height: 25px;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  text-align: center;
+}

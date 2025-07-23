@@ -1,0 +1,12 @@
+.sec2-main {
+  width: 100%;
+  height: 100vh;
+  background: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgcomponent {
+  display: flex;
+}
