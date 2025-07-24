@@ -9,7 +9,7 @@ function App() {
       <Section1 />
       <Section2 />
       <div className="main-container">
-        <h1>in process</h1>
+        <h1>in process test</h1>
       </div>
     </>
   );
