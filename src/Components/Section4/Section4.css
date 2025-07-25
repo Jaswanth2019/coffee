@@ -1,0 +1,33 @@
+.sec4-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: 100px 15px;
+}
+.count {
+  margin-bottom: 30px;
+}
+.count h3 {
+  color: #be9c79;
+  font-size: 55px;
+  font-weight: 100;
+}
+.head h5 {
+  color: #262626;
+  font-weight: 100;
+  font-size: 20px;
+}
+.text p {
+  color: #656565;
+  font-size: 15px;
+  text-align: center;
+  margin: 4px 0;
+}

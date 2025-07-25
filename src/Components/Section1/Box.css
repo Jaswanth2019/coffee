@@ -25,4 +25,8 @@
 }
 .heading-comp p:hover {
   color: #b78e5c;
+  cursor: pointer;
+}
+.img-comp:hover {
+  cursor: pointer;
 }

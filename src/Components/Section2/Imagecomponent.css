@@ -30,3 +30,9 @@
 .know-more a:hover {
   color: #b78e5c;
 }
+.images-comp .imge img:hover {
+  cursor: pointer;
+}
+.images-comp .min-head h2:hover {
+  cursor: pointer;
+}

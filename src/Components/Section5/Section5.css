@@ -1,0 +1,44 @@
+.sec5-box {
+  width: 100%;
+  height: 100vh;
+  background: url("https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text-box {
+  width: 570px;
+}
+.head {
+  display: flex;
+  justify-content: center;
+}
+.head h2 {
+  color: #262626;
+  font-size: 45px;
+  font-weight: 100;
+  word-spacing: 2px;
+}
+.leaf-img {
+  display: flex;
+  justify-content: center;
+}
+.text {
+  display: flex;
+  justify-content: center;
+}
+.text h6 {
+  font-weight: lighter;
+  color: #656566;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 30px;
+}

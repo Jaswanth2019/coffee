@@ -1,0 +1,48 @@
+.compimg {
+  padding: 25px;
+  position: relative;
+}
+.compimg:hover {
+  cursor: pointer;
+}
+.immg img {
+  width: 275px;
+  height: 275px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text h5 {
+  font-size: 20px;
+  font-weight: 100;
+}
+.text h5:hover {
+  color: #be9c79;
+}
+.immg img:hover {
+  opacity: 0.5;
+}
+.but button {
+  height: 60px;
+  width: 170px;
+  padding: 10px;
+  color: white;
+  background-color: #be9c79;
+  border: 1px solid #be9c79;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 79px;
+  top: 128px;
+  display: none;
+  cursor: pointer;
+}
+.but button:hover {
+  background-color: black;
+  border: 1px solid black;
+}
+.immg:hover .but button {
+  display: block;
+}
