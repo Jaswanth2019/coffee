@@ -1,0 +1,42 @@
+.imgs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 15px;
+}
+.imgs a img {
+  width: 95%;
+  height: 450px;
+}
+.imgs a:hover img {
+  background: rgba(0, 0, 0, 0.6);
+}
+.imgs a .text {
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  display: none;
+}
+.imgs a:hover .text {
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.imgs a .text span {
+  color: white;
+  font-weight: 100;
+}
+.imgs a .text span:hover {
+  color: #be9c79;
+}
+h3 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  padding-bottom: 10px;
+}
